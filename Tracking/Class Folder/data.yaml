@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['strawberry']
+
+roboflow:
+  workspace: swaraj-8siq5
+  project: strawberry-detection-n8kqe
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/swaraj-8siq5/strawberry-detection-n8kqe/dataset/1
